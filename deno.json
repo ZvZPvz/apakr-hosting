@@ -1,0 +1,11 @@
+{
+  "deploy": {
+    "exclude": [
+      "**/node_modules",
+      "**/cf",
+      "cf.ts"
+    ],
+    "include": [],
+    "entrypoint": "src/deno.ts"
+  }
+}
